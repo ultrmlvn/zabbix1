@@ -26,7 +26,7 @@
 
 `Ответ:`
 
-![Начальное-окно-регистрации](/Users/antonsolopov/Documents/sys-pattern-homework-1/Снимок экрана 2026-05-27 в 22.56.21.png)
+![Начальное-окно-регистрации](https://github.com/ultrmlvn/zabbix1/blob/main/Снимок%20экрана%202026-05-27%20в%2022.56.21.png#:~:text=Снимок-,экрана,-2026%2D05%2D27)
 
 ```
 sudo -s
