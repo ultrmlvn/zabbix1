@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "`Система мониторинга Zabbix`" - `Солопов Антон`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -24,21 +24,29 @@
 
 ### Задание 1
 
-`Приведите ответ в свободной форме........`
+`Ответ:`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+![Начальное-окно-регистрации](/Users/antonsolopov/Documents/sys-pattern-homework-1/Снимок экрана 2026-05-27 в 22.56.21.png)
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+sudo -s
+
+      apt install postgresql
+
+      wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu24.04_all.deb
+
+      dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
+      apt update
+
+      apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+
+
+      sudo -u postgres createuser --pwprompt zabbix
+
+      sudo -u postgres createdb -O zabbix zabbix
+
+      zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+
 ```
 
 `При необходимости прикрепитe сюда скриншоты
