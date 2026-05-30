@@ -60,9 +60,9 @@ sudo -s
 `Ответ:`
 
 1. ![Агент-подключен](https://github.com/ultrmlvn/zabbix1/blob/main/Снимок%20экрана%202026-05-30%20в%2020.29.21.png)
-2. ![Логи-агента](https://github.com/ultrmlvn/zabbix1/blob/main/README.md#:~:text=Снимок%20экрана-,2026%2D05%2D30,-в%2020.32.18.png)
-3. ![Данные-агента1](https://github.com/ultrmlvn/zabbix1/blob/main/README.md#:~:text=%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%2520%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0-,2026%252D05%252D30,-%D0%B2%252020.34.20.png)
-   ![Данные-агента2(локальный)](https://github.com/ultrmlvn/zabbix1/blob/main/README.md#:~:text=Снимок%20экрана-,2026%2D05%2D30,-в%2020.35.09.png)
+2. ![Логи-агента](https://github.com/ultrmlvn/zabbix1/blob/main/Снимок%20экрана%202026-05-30%20в%2020.32.18.png)
+3. ![Данные-агента1](https://github.com/ultrmlvn/zabbix1/blob/main/Снимок%20экрана%202026-05-30%20в%2020.34.20.png)
+   ![Данные-агента2(локальный)](https://github.com/ultrmlvn/zabbix1/blob/main/Снимок%20экрана%202026-05-30%20в%2020.35.09.png)
 
 
 4. `Агент установил сразу, вместе с сервером, по этому команда по его установки сверху`
